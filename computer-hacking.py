@@ -18,7 +18,7 @@ def on_connect():
         time.sleep(1) # Adds the "slow typing" effect
 
 # --- Your existing connection logic ---
-SERVER_IP = int(input("server ip:")
+SERVER_IP = int(input("server ip:"))
 PORT = 4444
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((SERVER_IP, PORT))
