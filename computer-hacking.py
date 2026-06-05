@@ -18,15 +18,15 @@ def on_connect():
         time.sleep(1) # Adds the "slow typing" effect
 
 # --- Your existing connection logic ---
-SERVER_IP = "192.168.1.XX"
+SERVER_IP = int(input("server ip:")
 PORT = 4444
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((SERVER_IP, PORT))
 
-# 1. RUN THE AUTOMATION FIRST
+1. RUN THE AUTOMATION FIRST
 on_connect()
 
-# 2. THEN TRIGGER THE GUI SIMULATION
+#2. THEN TRIGGER THE GUI SIMULATION
 # This assumes hacker_sim.py is in the same folder
 subprocess.Popen(["python", "hacker_sim.py"])
 
