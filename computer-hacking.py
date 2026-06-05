@@ -23,7 +23,7 @@ PORT = 4444
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((SERVER_IP, PORT))
 
-1. RUN THE AUTOMATION FIRST
+#1. RUN THE AUTOMATION FIRST
 on_connect()
 
 #2. THEN TRIGGER THE GUI SIMULATION
